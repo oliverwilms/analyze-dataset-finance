@@ -2,6 +2,7 @@ zn "%SYS"
 Do ##class(Security.Users).UnExpireUserPasswords("*")
 
 zn "USER"
+zpm "install analyzethis"
 zpm "install dataset-finance"
 
 zpm "load /opt/irisbuild/ -v":1:0
