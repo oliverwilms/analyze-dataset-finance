@@ -3,7 +3,7 @@
   <Document name="analyze-dataset-finance.ZPM">
     <Module>
       <Name>analyze-dataset-finance</Name>
-      <Version>0.0.1</Version>
+      <Version>0.0.2</Version>
       <Description>analyze-dataset-finance</Description>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
