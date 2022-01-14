@@ -235,7 +235,7 @@ ClassMethod ImportCSV(
 ClassMethod InstallHelper() As %Status
 {
 	Set tSC = $$$OK
-	Do EnableDeepSee^%SYS.cspServer("/csp/irisapp/")
+	Do EnableDeepSee^%SYS.cspServer("/csp/user/")
 	//Set tSC = ##class(Riches.Util).SQLGrantAccess()
 	//Set tSC = ##class(Riches.Util).ImportCSV()
 	Kill ^TESTunit
