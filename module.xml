@@ -8,7 +8,6 @@
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="Riches.PKG"/>
-      <Resource Name="dc.data.PKG"/>
       <Invokes>
         <Invoke Class="Riches.Util" Method="InstallHelper"></Invoke>
       </Invokes>
