@@ -239,7 +239,7 @@ ClassMethod InstallHelper() As %Status
 	//Set tSC = ##class(Riches.Util).SQLGrantAccess()
 	//Set tSC = ##class(Riches.Util).ImportCSV()
 	Kill ^TESTunit
-	//Set tSC = ##class(%DeepSee.Utils).%BuildCube("iris4money")
+	Set tSC = ##class(%DeepSee.Utils).%BuildCube("finance")
 	Quit tSC
 }
 
