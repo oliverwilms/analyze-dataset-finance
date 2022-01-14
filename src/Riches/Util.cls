@@ -237,9 +237,9 @@ ClassMethod InstallHelper() As %Status
 	Set tSC = $$$OK
 	Do EnableDeepSee^%SYS.cspServer("/csp/irisapp/")
 	//Set tSC = ##class(Riches.Util).SQLGrantAccess()
-	Set tSC = ##class(Riches.Util).ImportCSV()
+	//Set tSC = ##class(Riches.Util).ImportCSV()
 	Kill ^TESTunit
-	Set tSC = ##class(%DeepSee.Utils).%BuildCube("iris4money")
+	//Set tSC = ##class(%DeepSee.Utils).%BuildCube("iris4money")
 	Quit tSC
 }
 
