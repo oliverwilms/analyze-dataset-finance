@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Export generator="Cache" version="25">
+  <Document name="analyze-dataset-finance.ZPM">
+    <Module>
+      <Name>analyze-dataset-finance</Name>
+      <Version>0.0.1</Version>
+      <Description>analyze-dataset-finance</Description>
+      <Packaging>module</Packaging>
+      <SourcesRoot>src</SourcesRoot>
+      <Resource Name="Riches.PKG"/>
+      <Invokes>
+        <Invoke Class="Riches.Util" Method="InstallHelper"></Invoke>
+      </Invokes>
+    </Module>
+  </Document>
+</Export>
