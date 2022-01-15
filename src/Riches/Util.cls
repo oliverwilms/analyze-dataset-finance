@@ -242,7 +242,7 @@ ClassMethod InstallHelper() As %Status
 	Set tSC = ##class(Riches.WizardUtils).GenerateCube()
 	//Set tSC = ##class(%DeepSee.Utils).%BuildCube("transact")
 	//ERROR #5002: ObjectScript error: <CLASS DOES NOT EXIST>%BuildCube+87^%DeepSee.Utils.1 *(No name)No Meta Data Found
-	Set tSC = ##class(Riches.WizardUtils).GenerateDash()
+	//Set tSC = ##class(Riches.WizardUtils).GenerateDash()
 	Set tSC = ##class(%DeepSee.Utils).%BuildCube("finance")
 	Set tSC = ##class(Riches.WizardUtils).GenerateDash("finance")
 	Quit tSC
