@@ -16,7 +16,7 @@ ClassMethod GenerateCube() As %Status
 ClassMethod GenerateDash(pCubeName As %String, pVerbose As %Boolean = 0) As %Status
 {
     Do ##class(Riches.Util).DebugTEST("Riches.WizardUtils - GenerateDash")
-    Set pCubeName = "transact"
+    Set pCubeName = "finance"
     Set pVerbose = 1
     // Given a cube name, generate a Dashboard
     Set tSC = ##class(AnalyzeThis.Generator).GenerateDash(pCubeName,pVerbose)
