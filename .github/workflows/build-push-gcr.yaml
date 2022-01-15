@@ -8,9 +8,9 @@ on:
 
 env:
   # Change this section according to your needs
-  IMAGE_NAME:   iris-google-run-demo
-  SERVICE:      deploy-demo
-  DOMAIN_NAME:  deploy.contest.community.intersystems.com
+  IMAGE_NAME:   analyze-daset-finance
+  SERVICE:      analyze-daset-finance
+  DOMAIN_NAME:  finance.contest.community.intersystems.com
 
   # Leave this section untouched
   PROJECT_ID:   hackathon-297608
