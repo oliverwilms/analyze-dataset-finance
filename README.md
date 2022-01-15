@@ -1,9 +1,9 @@
 # analyze-dataset-finance
-This is the companion app for dataset-finance
-
-![screenshot](https://github.com/oliverwilms/bilder/blob/main/analyze-dataset-finance_Dashboard.png)
+You can see the companion app for dataset-finance at this link:
 
 http://localhost:57700/dsw/index.html#/USER/Generated/Samples%20for%20finance.dashboard
+
+![screenshot](https://github.com/oliverwilms/bilder/blob/main/analyze-dataset-finance_Dashboard.png)
 
 ## Installation 
 
