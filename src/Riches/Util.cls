@@ -240,6 +240,7 @@ ClassMethod InstallHelper() As %Status
 	//Set tSC = ##class(Riches.Util).ImportCSV()
 	Kill ^TESTunit
 	Set tSC = ##class(Riches.WizardUtils).GenerateCube()
+	Set tSC = ##class(%DeepSee.Utils).%BuildCube("transact")
 	Set tSC = ##class(Riches.WizardUtils).GenerateDash()
 	Set tSC = ##class(%DeepSee.Utils).%BuildCube("finance")
 	Quit tSC
