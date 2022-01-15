@@ -26,8 +26,7 @@ XData Cube [ XMLNamespace = "http://www.intersystems.com/deepsee" ]
       </level>
     </hierarchy>
   </dimension>
-  <listing name="Listing" displayName=" Default Listing "
-    fieldList=",ID,Account,AmountCredit,AmountDebit,Category,CheckNumber,Memo,Merchant,OtherSide,SubCategory,TranDate,TranTime" />
+  <listing name="Listing" displayName=" Default Listing " fieldList=",ID,Account,Credit,Debit,Category,CheckNumber,Memo,Merchant,SubCategory,TranDate" />
   <measure name="Credit" disabled="false" sourceProperty="Credit" aggregate="SUM" type="number" hidden="false" searchable="false" factNumber="1">
   </measure>
   <measure name="Debit" disabled="false" sourceProperty="Debit" aggregate="SUM" type="number" hidden="false" searchable="false" factNumber="2">
