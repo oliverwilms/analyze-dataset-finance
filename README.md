@@ -3,6 +3,8 @@ This is the companion app for dataset-finance
 
 ![screenshot](https://github.com/oliverwilms/bilder/blob/main/analyze-dataset-finance_Dashboard.png)
 
+http://localhost:57700/dsw/index.html#/USER/Generated/Samples%20for%20finance.dashboard
+
 ## Installation 
 
 ### ZPM
