@@ -241,7 +241,7 @@ ClassMethod InstallHelper() As %Status
 	Kill ^TESTunit
 	Set tSC = ##class(Riches.WizardUtils).GenerateCube()
 	Set tSC = ##class(Riches.WizardUtils).GenerateDash()
-	Set tSC = ##class(%DeepSee.Utils).%BuildCube("transact")
+	Set tSC = ##class(%DeepSee.Utils).%BuildCube("finance")
 	Quit tSC
 }
 
