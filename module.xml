@@ -3,9 +3,23 @@
   <Document name="analyze-dataset-finance.ZPM">
     <Module>
       <Name>analyze-dataset-finance</Name>
-      <Version>0.0.2</Version>
+      <Version>0.0.3</Version>
       <Description>analyze-dataset-finance</Description>
       <Packaging>module</Packaging>
+      <Dependencies>
+        <ModuleReference>
+          <Name>dsw</Name>
+          <Version>*</Version>
+        </ModuleReference>
+        <ModuleReference>
+          <Name>analyzethis</Name>
+          <Version>*</Version>
+        </ModuleReference>
+        <ModuleReference>
+          <Name>dataset-finance</Name>
+          <Version>*</Version>
+        </ModuleReference>
+      </Dependencies>
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="Riches.PKG"/>
       <Invokes>
