@@ -239,6 +239,8 @@ ClassMethod InstallHelper() As %Status
 	//Set tSC = ##class(Riches.Util).SQLGrantAccess()
 	//Set tSC = ##class(Riches.Util).ImportCSV()
 	Kill ^TESTunit
+	Set tSC = ##class(Riches.WizardUtils),GenerateCube()
+	Set tSC = ##class(Riches.WizardUtils),GenerateDash()
 	Set tSC = ##class(%DeepSee.Utils).%BuildCube("finance")
 	Quit tSC
 }
