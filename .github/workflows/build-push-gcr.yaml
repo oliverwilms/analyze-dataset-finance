@@ -8,8 +8,8 @@ on:
 
 env:
   # Change this section according to your needs
-  IMAGE_NAME:   analyze-daset-finance
-  SERVICE:      analyze-daset-finance
+  IMAGE_NAME:   finance
+  SERVICE:      finance
   DOMAIN_NAME:  finance.demo.community.intersystems.com
 
   # Leave this section untouched
